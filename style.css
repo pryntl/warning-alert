@@ -8,26 +8,27 @@ div {
   }
 a {
   display: flex;
-  font-size: 10px;
+  font-size: 15px;
   text-decoration: none;
-  margin-top: 50px;
+  margin-top: 53px;
   font-weight: 600;
   font-family: arial;
   background-color: #b22222;
   color: black;
-  height: 30px;
+  height: 40px;
   align-items: center;
   justify-content: center;
 }
 body > div {
-  width: 250px;
+  width: 280px;
   border: 5px solid #b22222;
-  height: 125px;
+  border-radius: 5px;
+  height: 150px;
   background-color: white;
   
 }
 body > div > div {
-  font-size: 10px;
+  font-size: 15px;
 }
 #a {
   position: absolute;
@@ -37,7 +38,7 @@ body > div > div {
   animation-duration: 3s;
 }
 @keyframes a {
-    10% {transform: scale(2.5);}
+    10% {transform: scale(2);}
 }
 #b {
   position: absolute;
@@ -47,7 +48,7 @@ body > div > div {
   animation-duration: 3s;
 }
 @keyframes b {
-    20% {transform: scale(2.5);}
+    20% {transform: scale(2);}
 }
 #c {
   position: absolute;
@@ -57,7 +58,7 @@ body > div > div {
   animation-duration: 3s;
 }
 @keyframes c {
-    30% {transform: scale(2.5);}
+    30% {transform: scale(2);}
 }
 #d {
   position: absolute;
@@ -67,7 +68,7 @@ body > div > div {
   animation-duration: 3s;
 }
 @keyframes d {
-    40% {transform: scale(2.5);}
+    40% {transform: scale(2);}
 }
 #e { 
     position: absolute;
@@ -77,7 +78,7 @@ body > div > div {
     animation-duration: 3s;
 }
 @keyframes e {
-    50% {transform: scale(2.5);}
+    50% {transform: scale(2);}
 }
 #f {
     position: absolute;
@@ -87,7 +88,7 @@ body > div > div {
     animation-duration: 3s;
 }
 @keyframes f {
-    60% {transform: scale(2.5);}
+    60% {transform: scale(2);}
 }
 #g {
     position: absolute;
@@ -97,7 +98,7 @@ body > div > div {
     animation-duration: 3s;
 }
 @keyframes g {
-    70% {transform: scale(2.5);}
+    70% {transform: scale(2);}
 }
 #h {
     position: absolute;
@@ -107,7 +108,7 @@ body > div > div {
     animation-duration: 3s;
 }
 @keyframes h {
-    80% {transform: scale(2.5);}
+    80% {transform: scale(2);}
 }
 #i {
     position: absolute;
@@ -117,6 +118,6 @@ body > div > div {
     animation-duration: 3s;
 }
 @keyframes i {
-    90% {transform: scale(2.5);}
+    90% {transform: scale(2);}
 }
 
